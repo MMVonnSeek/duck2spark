@@ -74,3 +74,9 @@ Additional Hints on using DuckEncoder in conjunction with duck2spark
 * Using long delays in a DuckyScript results in big payloads, as delays longer than 250 milliseconds are split up into multiple delays, with a maximum of 250 milliseconds each. Each of these delays consumes 2 bytes in the final payload. As the memory of digispark is far more limited, it is suggested to use ``duck2spark's`` delay options instead. Duck2spark relies on DigiKeyboard.delay() and is more friendly in terms of memory consumption.
 
 * Using the "PREPEAT <N>" instruction in DuckyScript results in repeating the whole key sequence of the former command and thus consumes <N> times as much memory in the final payload. Again, as Digispark is short on memory, it is suggested to use ``duck2spark's`` loop option whenever possible. Printing out a 10 character string 500 times by using "REPEAT 500" results in a payload 10000 bytes in size, which is to large for Digispark. Encoding a DuckyScript with a single 10 character string consumes only 20 bytes and could be combined with ``duck2spark.py -l 500`` to achieve a 500 times repetition without further memory consumption.
+
+
+
+
+Optional (if you can follow me and leave a star in the repository)  ⭐
+Thank you
