@@ -80,3 +80,4 @@ Additional Hints on using DuckEncoder in conjunction with duck2spark
 
 Optional (if you can follow me and leave a star in the repository)  ⭐
 Thank you
+ 
